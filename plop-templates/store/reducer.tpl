@@ -1,11 +1,11 @@
 import * as {{pascalCase targetFolder}}Actions from './{{targetFolder}}.actions';
 
 export interface State {
-  {{lowerCase targetFolder}}: any;
+  {{camelCase targetFolder}}: any;
 }
 
 const initialState: State = {
-  {{lowerCase targetFolder}}: void 0,
+  {{camelCase targetFolder}}: void 0,
 };
 
 export function reducer(state: State = initialState, action: {{pascalCase targetFolder}}Actions.Actions): State {
