@@ -1,6 +1,6 @@
 {
   "name": "@ofir.fridman/ng-module-cli-generator",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "CLI Angular module boilerplate generator",
   "main": "index.js",
   "scripts": {
