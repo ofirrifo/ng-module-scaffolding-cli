@@ -8,7 +8,7 @@
   },
   "keywords": [],
   "bin": {
-    "gm": "index.js"
+    "gngm": "index.js"
   },
   "author": "Ofir Fridman",
   "license": "MIT",

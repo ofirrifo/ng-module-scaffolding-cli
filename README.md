@@ -6,5 +6,5 @@
 
 ## CLI Command
 
-`gm`
+`gngm`
 
