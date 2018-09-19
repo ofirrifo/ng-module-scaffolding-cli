@@ -6,5 +6,5 @@
 
 ## CLI Command
 
-`gngm`
+`genNgModule`
 
