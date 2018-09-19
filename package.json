@@ -1,6 +1,6 @@
 {
   "name": "@ofir.fridman/ng-module-cli-generator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "CLI Angular module boilerplate generator",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "keywords": [],
   "bin": {
-    "gngm": "index.js"
+    "genNgModule": "index.js"
   },
   "author": "Ofir Fridman",
   "license": "MIT",
