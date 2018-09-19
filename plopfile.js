@@ -23,7 +23,9 @@ module.exports = function (plop) {
             const module = createActions(directory, ['module', 'routing']);
             const mainComponent = createMainComponentActions(directory, ['html', 'scss', 'spec.ts', 'ts']);
             const store = createActions(directory, ['actions', 'effects', 'reducer', 'selector'], 'store');
-            return [...module, ...mainComponent, ...store]
+            const CONST = createActions(directory, ['const'], 'consts');
+            const model = createActions(directory, ['interface'], 'models');
+            return [...module, ...mainComponent, ...store, ...CONST, ...model]
         }
 
     });
