@@ -1,4 +1,4 @@
-# CLI Angular module boilerplate generator
+# Angular Module Scaffolding CLI
 
 ## Installation
 
